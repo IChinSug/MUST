@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+  /* Basic styles */
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#hero {
+    background: url('hero.jpg') center/cover;
+    color: white;
+    text-align: center;
+    padding: 4rem;
+}
+body {
+    background-image: url('Travel.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Set text color to white for better readability on the background image */
+}
+
+#hero h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    background: #919191;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #555;
+}
+
+#destinations {
+    padding: 4rem;
+}
+
+.destination {
+    margin-bottom: 2rem;
+}
+
+.grey-box {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the text color within the grey box */
+.grey-box p,
+.grey-box label,
+.grey-box input,
+.grey-box textarea,
+.grey-box button {
+    color: #333; /* Dark grey text color */
+}
+
+.destination img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    
+}
